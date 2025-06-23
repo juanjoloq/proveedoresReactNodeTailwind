@@ -12,9 +12,8 @@ export default function NavegacionPag() {
 
             <ul className="flex space-x-6 text-sm ">
                 <li><Link to="/" className="hover:underline">Inicio</Link></li>
-                <li><a href="" className="hover:underline">Skills</a></li>
-                <li><a href="" className="hover:underline">Projects</a></li>
-                <li><a href="" className="hover:underline">Recommendations</a></li>
+                <li><Link to="/proveedores" className="hover:underline">Proveedores</Link></li>
+                <li><Link to="/contacto" className="hover:underline">Contactanos</Link></li>
             </ul>
         </div>
     )
